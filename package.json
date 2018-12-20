@@ -1,0 +1,45 @@
+{
+  "name": "lambda-mocha-runner",
+  "version": "1.0.0",
+  "description": "Run mocha driven integration tests inside of an AWS Lambda.",
+  "main": "lib/runner.js",
+  "scripts": {
+    "test": "npm run ut && npm run lint",
+    "ut": "_mocha ./spec/unit",
+    "lint": "./node_modules/eslint/bin/eslint.js ./spec/ ./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corybill/lambda-mocha-runner.git"
+  },
+  "keywords": [
+    "StriveNine",
+    "Strive9",
+    "S9",
+    "Mocha",
+    "Mocha Programmatically",
+    "AWS",
+    "AWS Mocha",
+    "AWS Lambda",
+    "AWS Mocha Lambda"
+  ],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "author": "corybill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corybill/lambda-mocha-runner/issues"
+  },
+  "homepage": "https://github.com/corybill/lambda-mocha-runner#readme",
+  "dependencies": {
+    "chance": "0.x",
+    "clear-module": "3.x",
+    "errr": "2.x",
+    "maddox": "2.x",
+    "mocha": "5.x"
+  },
+  "devDependencies": {
+    "eslint": "3.x"
+  }
+}

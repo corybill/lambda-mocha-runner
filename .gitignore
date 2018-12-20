@@ -1,0 +1,6 @@
+.idea
+node_modules
+sandbox
+.eslintcache
+package-lock.json
+.vscode
