@@ -40,6 +40,6 @@
     "mocha": "7.x"
   },
   "devDependencies": {
-    "eslint": "3.x"
+    "eslint": "6.x"
   }
 }
