@@ -1,6 +1,6 @@
 {
   "name": "lambda-mocha-runner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Run mocha driven integration tests inside of an AWS Lambda.",
   "main": "lib/runner.js",
   "scripts": {
